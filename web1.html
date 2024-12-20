@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drama Genres</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    height: 600px;
+    background-color: gray;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    background-image:url("background.jpg");
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: blue;
+    text-decoration: none;
+    font-size:30px;
+}
+
+main {
+    padding: 20px;
+    background-color: red;
+}
+
+.drama-category {
+    background: #fff;
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.drama-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.drama-item:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    color: darkred;
+    text-align: center;
+    font-size:50px;
+    font-style: italic;
+    background-color: green;
+
+
+}
+button{
+    font-style: italic;
+    background-color: gray;
+    
+}
+
+footer {
+    text-align: center;
+    background-color:gray;
+    padding:10px;
+    font-size:50px;
+    color: blue;
+</style>
+<body>
+    <header >
+        <marquee behavior="alternate" scrollamount="19" onmouseover="this.stop()" onmouseout="this.start()">
+        <h1 style="font-size: 60px;">Welcome to Our Drama Theatre</h1></marquee>
+        <nav>
+            <ul>
+                <li><a href="#action">Action</h1></a></li>
+                <li><a href="#romance">Romance</a></li>
+                <li><a href="#comedy">Comedy</a></li>
+                <li><a href="#thriller">Thriller</a></li>
+            </ul>
+        </nav>
+        <nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" size="80px">
+      <button class="btn btn-outline-success" type="submit" >Search</button>
+    </form>
+  </div>
+</nav>
+    </header>
+
+    <main>
+        <section id="action" class="drama-category">
+            <h2>Action</h2>
+            <div class="drama-item"><table>
+                <tr><td><img src="v2.png" heght="380px" width="280px"></img></td>
+                    <td width="50px"></td>
+                <td><img src="v3.webp" heght="380px" width="280px"></img></td>
+                 <td width="50px"></td>
+                <td><img src="cid.jpg" heght="380px" width="280px"></img></td>
+                <td width="50px"></td>
+                <td><img src="v4.webp" heght="380px" width="280px"></img></td>
+
+                   </tr>
+                   <tr style="color:red;">
+                    <td><h2>VICANZO</h2></td>
+                    <td width="50px"></td>
+                    <td>  <h2>MY DEMON</h2></td>
+                    <td width="50px"></td>
+                    <td>  <h2>CID</h2></td>
+                    <td width="50px"></td>
+                    <td> <h2> MAHABHARAT</h2></td>
+
+                   </tr>   </table>
+                            </div>
+                    </section>
+
+        <section id="romance" class="drama-category">
+            <h2>Romance</h2>
+            <div class="drama-item">
+                <table>
+                <tr><td><img src="r1.jpg" heght="380px" width="280px"></img></td>
+                    <td width="50px"></td>
+                <td><img src="r2.jpg" heght="380px" width="280px"></img></td>
+                 <td width="50px"></td>
+                <td><img src="r5.jpg" heght="380px" width="280px"></img></td>
+                <td width="50px"></td>
+                <td><img src="r4.webp" heght="380px" width="280px"></img></td>
+
+                   </tr>
+                   <tr style="color:red;">
+                    <td><h2>hidden love</h2></td>
+                    <td width="50px"></td>
+                    <td> <h2>ishqbaaz</h2></td>
+                    <td width="50px"></td>
+                    <td> <h2>Queen of tears</h2>  </td>
+                    <td width="50px"></td>
+                    <td> <h2> nagin</h2></td>
+
+                   </tr>   </table>
+
+
+                
+                            </div>
+            
+        </section>
+
+        <section id="comedy" class="drama-category">
+            <h2>Comedy</h2>
+            <div class="drama-item">
+                <table>
+                <tr><td><img src="c1.jpg" heght="380px" width="280px"></img></td>
+                    <td width="50px"></td>
+                <td><img src="c2.jpg" heght="380px" width="280px"></img></td>
+                 <td width="50px"></td>
+                <td><img src="c3.webp" heght="380px" width="280px"></img></td>
+                <td width="50px"></td>
+                <td><img src="c4.jpg" heght="380px" width="280px"></img></td>
+
+                   </tr>
+                   <tr style="color:red;">
+                    <td><h2>bhabhi ji ghar par hai </h2></td>
+                    <td width="50px"></td>
+                    <td>  <h2>tarak mehta ka ulta chasma</h2></td>
+                    <td width="50px"></td>
+                    <td> <h2> Gen Z</h2></td>
+                    <td width="50px"></td>
+                    <td> <h2> kapil sharma show</h2></td>
+
+                   </tr>   </table>
+            </div>
+                    </section>
+
+        <section id="thriller" class="drama-category">
+            <h2 >Thriller</h2>
+            <div class="drama-item">
+                                <table>
+                <tr><td><img src="t1.jpg" heght="380px" width="280px"></img></td>
+                    <td width="50px"></td>
+                <td><img src="t2.webp" heght="380px" width="280px"></img></td>
+                 <td width="50px"></td>
+                <td><img src="t3.jpg" heght="380px" width="280px"></img></td>
+                <td width="50px"></td>
+                <td><img src="t4.jpg" heght="380px" width="280px"></img></td>
+
+                   </tr>
+                   <tr style="color:red;">
+                    <td><h2>mirzapur </h2></td>
+                    <td width="50px"></td>
+                    <td> <h2> dehati ladka </h2></td>
+                    <td width="50px"></td>
+                    <td><h2> kalki 2898 ad</h2> </td>
+                    <td width="50px"></td>
+                    <td><h2>Brahmastra</h2></td>
+
+                   </tr>   </table>
+
+                            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Drama Theatre. All rights reserved.</p>
+    </footer>
+</body>
+</html>
